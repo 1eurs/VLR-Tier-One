@@ -1,0 +1,32 @@
+.tier1-toggle {
+  cursor: pointer;
+  padding: 8px;
+  background: #222;
+  border-radius: 4px;
+  color: #fff;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.tier1-toggle .on {
+  display: inline;
+}
+
+.tier1-toggle .off {
+  display: none;
+}
+
+.tier1-toggle.mod-active .on {
+  display: none;
+}
+
+.tier1-toggle.mod-active .off {
+  display: inline;
+}
+
+/* Collapse hidden news sections and labels */
+.js-home-news .wf-label[style*="display: none"],
+.js-home-news .wf-card[style*="display: none"] {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

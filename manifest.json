@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "VLR Tier 1 Filter",
+  "version": "1.0",
+  "description": "Shows only Tier 1 Valorant esports content (VCT, Masters, Champions) on VLR.gg.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.vlr.gg/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
