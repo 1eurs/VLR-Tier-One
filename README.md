@@ -4,8 +4,6 @@ A Chrome extension that filters [VLR.gg](https://www.vlr.gg/) to show only Tier 
 
 ## Features
 - Hides non-Tier 1 content (e.g., Game Changers, Challengers League).
-- Toggle filter ON/OFF with a button in the VLR.gg header.
-- Clean layout with minimal gaps.
 
 ## Installation
 1. Download or clone this repository.
@@ -19,5 +17,3 @@ A Chrome extension that filters [VLR.gg](https://www.vlr.gg/) to show only Tier 
 - `content.js`: Filters VLR.gg content.
 - `styles.css`: Styles the toggle button.
 - `icon.png`: Extension icon.
-
-
